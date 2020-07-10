@@ -22,8 +22,7 @@ function divide(a,b){
   return a/b
 }
 function increment(n){
-  var result = n+1
-  return result
+  return n-=1
 }
 
 function decrement(n){
